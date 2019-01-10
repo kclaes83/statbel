@@ -1,0 +1,13 @@
+
+
+server:
+  port: 8081
+
+#Pretty print json output, for e.g. Actuator endpoints http://localhost:8081/actuator
+spring.jackson.serialization.indent_output: true
+
+#Spring boot actuator
+management.endpoints.web.exposure.include: "*"
+
+#Business properties
+uz.as.statbel.ref-nis-file-path: "geographicalClassification/REFNIS_2019.csv"
