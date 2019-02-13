@@ -6,7 +6,7 @@ import uz.as.statbel.domain.Municipality;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@Repository
+//@Repository
 public class HardCodedGeographicalClassifRepo implements GeographicalClassificationRepo {
 
     private static final Map<String, String> NIS_CACHE = new HashMap<>();

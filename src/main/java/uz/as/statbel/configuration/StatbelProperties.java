@@ -1,9 +1,11 @@
 package uz.as.statbel.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
+@Component
 @ConfigurationProperties(prefix = "uz.as.statbel")
-public class StatBelProperties {
+public class StatbelProperties {
 
     private String refNisFilePath;
 
