@@ -13,10 +13,10 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class GeographicalClassificationServiceTest {
+public class DefaultGeographicalClassificationServiceTest {
 
     @Autowired
-    private GeographicalClassificationService service;
+    private DefaultGeographicalClassificationService service;
 
     @Test
     public void findNISforMainMuncipality() {
