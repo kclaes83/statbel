@@ -1,0 +1,30 @@
+= Demo applicatie Statbel
+
+Allerlei classificaties kunnen door deze webservice voorzien worden.
+https://statbel.fgov.be/nl/over-statbel/methodologie/classificaties
+
+Momenteel worden enkel de NIS-codes van de gemeenten aangeboden:
+https://statbel.fgov.be/nl/over-statbel/methodologie/classificaties/geografie
+
+* Spring framework
+** DI (Spring Core)
+* Spring Boot (convention over configuration)
+** Start in `@SpringBootApplication` (component scan and spring-boot-starters)
+** `@Configuration` classes
+** `@ConfigurationProperties` and property files
+(Ways to override properties: https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-external-config.html)
+** Other features to mention?  Scheduling/cron?  Profiles?
+** Documentation
+https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#_working_with_spring_boot
+* Plethora of available modules
+** https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html#using-boot-starter
+* Building
+** It's java
+** Deps in ivy, https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html#using-boot-ant
+
+
+
+* TODO
+** grpc?
+** dep probs ff oplijsten
+** naar ivy, (builden via ant script?)

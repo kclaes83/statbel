@@ -1,6 +1,7 @@
 package uz.as.statbel.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import uz.as.statbel.domain.Municipality;
 import uz.as.statbel.repository.GeographicalClassificationRepo;
@@ -11,8 +12,6 @@ import java.util.Optional;
 
 /**
  * https://statbel.fgov.be/nl/over-statbel/methodologie/classificaties/geografie
- *
- * TODO krcl make an interface
  */
 @Service
 public class DefaultGeographicalClassificationService implements GeographicalClassificationService {
